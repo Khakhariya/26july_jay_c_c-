@@ -36,7 +36,7 @@ int main()
 
 			}
 			nm[u][v] = z;
-			printf(" = %d  ",nm[u][v]);
+			printf(" %d  ",nm[u][v]);
 			z=0;
 		}
 		printf("\n");

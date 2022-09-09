@@ -41,13 +41,5 @@ int main()
 		}
 		printf("\n");
 	}
-	for(u=0; u<x; u++)
-	{
-		for(v=0; v<y; v++)
-		{
-			printf(" %d ",nm[u][v]);
-		}
-		printf("\n");
-	}
 	return 0;
 }

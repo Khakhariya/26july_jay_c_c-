@@ -25,24 +25,6 @@ int main()
     		scanf("%d",&nu[u][v]);
 		}
 	}
-	printf("\nfirst matrics value is below.\n");
-	for(u=0; u<x; u++)
-	{
-		for(v=0; v<y; v++)
-		{
-			printf(" %d",no[u][v]);
-		}
-		printf("\n");
-	}
-	printf("\nsecond matrix value is below.\n");
-	for(u=0; u<x; u++)
-	{
-		for(v=0; v<y; v++)
-		{
-			printf(" %d",nu[u][v]);
-		}
-		printf("\n");
-	}
 	printf("\nyour matrics multiplication is below.\n");
 	for(u=0; u<x; u++)
 	{
@@ -51,8 +33,7 @@ int main()
 			for(w=0; w<y; w++)
 			{
 				z= z + no[u][w]*nu[w][v];
-				printf("%d",no[u][w]);
-				printf(" * %d  +",nu[w][v]);
+
 			}
 			nm[u][v] = z;
 			printf(" = %d  ",nm[u][v]);
